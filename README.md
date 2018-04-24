@@ -28,6 +28,8 @@ If you want to only write a cloud worker file, then you can use the prebuilt ser
 
 …where `index.js` contains your worker. For example, this [cloud-worker demo](https://cloud-worker.now.sh/) waits 3 seconds then sends all request the response from a example.com ([source code](https://cloud-worker.now.sh/_src)).
 
+Here's some [recipes of what a cloud worker can do](https://developers.cloudflare.com/workers/recipes/a-b-testing/).
+
 ## Direct usage
 
 The module can be required and used directly, and the (current) API is:
