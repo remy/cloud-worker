@@ -3,12 +3,17 @@
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "bin": { "worker": "bin/worker.js", "cloud-worker": "bin/worker.js" },
+  "bin": {
+    "worker": "bin/worker.js",
+    "cloud-worker": "bin/worker.js"
+  },
   "scripts": {
     "test": "jest"
   },
   "jest": {
-    "testMatch": ["**/?(*.)(test).js"],
+    "testMatch": [
+      "**/?(*.)(test).js"
+    ],
     "testEnvironment": "node"
   },
   "keywords": [],
